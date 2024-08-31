@@ -1,6 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Logo from "./img/Flag-Cambodia.webp";
+import Logo from "./img/1-removebg-preview.png";
 import Home from "./Components/Home";
 import Country from "./Components/Country"
 import Continent from "./Components/Continent"
@@ -8,10 +8,10 @@ import About from "./Components/About"
 
 function App() {
   return (
-    <div className="navbar-body">
+    <div className="navbar-body container">
     <nav className="Navbar">
       <ul>
-        <li><img src={Logo} height="50px" alt="logo.webp"/></li>
+        <li className="img-logo"><img src={Logo} alt="logo.webp"/></li>
       </ul>
       <ul>
         <li className="links">
@@ -25,7 +25,7 @@ function App() {
       </ul>
       <ul>
         <li className="links">
-          <Link to="/continent" className="content">continent</Link>
+          <Link to="/continent" className="content">Continent</Link>
         </li>
       </ul>
       <ul>

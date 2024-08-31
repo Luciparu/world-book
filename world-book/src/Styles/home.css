@@ -1,4 +1,32 @@
-.container{
-    background-color: #84b0f3;
-    height: 100%;
+.home-container{
+    height: 100vh;
+    width: 100vw;
+    background-image:url('../img//2-removebg.png') ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #dadde2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.image{
+    margin-top: 5rem;
+}
+
+
+h1{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size:150px;
+    align-self:center ;
+    justify-self: center;
+}
+.greet{
+    margin-top: -20px;
+    font-size: 50px;
+    border: 2px red solid;
+    text-align: center;
+
 }

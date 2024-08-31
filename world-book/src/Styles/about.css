@@ -1,4 +1,29 @@
-.container{
-    background-color: #84b0f3;
-    height: 100%;
+.about-container{
+    background-color: #dadde2;
+    height: 100vh;
+    background-image:url('../img//2-removebg.png') ;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: block;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.card-bg{
+    height: 100vh;
+    width: 100vh;
+    background-color: rgba(240, 248, 255, 0.8);
+    
+}p{ 
+    font-size: 20px;
+    padding: 20px;
 }
